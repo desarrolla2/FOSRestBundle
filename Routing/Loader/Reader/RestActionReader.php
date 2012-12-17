@@ -192,7 +192,7 @@ class RestActionReader
 
         // add route to collection
         $collection->add($routeName, new Route(
-            $pattern.'.{_format}', $defaults, $requirements, $options
+            $pattern, $defaults, $requirements, $options
         ));
     }
 
